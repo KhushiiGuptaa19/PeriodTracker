@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4f9;
+}
+
+/* Header Navigation */
+header {
+    background-color: #b56a76;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #e8c3c8;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/* Info Section */
+.info-section, .symptoms-section, .health-tips-section {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Health Tips */
+.health-tips-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tip {
+    max-width: 300px;
+}
+
+.tip img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fbe3e8;
+}
+
+.testimonial-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.testimonial-text {
+    margin-left: 30px;
+    max-width: 500px;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    padding: 50px;
+    background-color: #fff8f8;
+    text-align: center;
+}
+
+.cta-buttons button {
+    margin: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: #842d2d;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #842d2d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Buttons */
+button {
+    background-color: #b56a76;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #a05b65;
+}
